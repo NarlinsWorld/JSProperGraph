@@ -1,8 +1,9 @@
+/*
 let tahoma;
 function preload() {
     tahoma = loadFont('Fonts/tahoma.ttf'); //has to be present relative to the index.html
 }
-
+*/
 
 
 
@@ -41,7 +42,7 @@ class BoxGraph {
 
     theBox() {
 
-        textFont(tahoma);
+        //textFont(tahoma);
         textSize(this.fsize);
 
         noFill();
