@@ -1,5 +1,5 @@
 let red = '#ff0000';
-let skyblue = '#00ffff';
+let skyblue = '#0fffff';
 let blue = '#0000ff';
 let black = '#000000';
 
@@ -18,8 +18,8 @@ function setup() {
     let ymax = 1.5;
     let ynumbox = 4;
     let fsize = 22;
-    let xdecimals = 0; //if not zero, then fixed number of axis decimal places
-    let ydecimals = 0; //if not zero, ....
+    let xdecimals = 1; //if not zero, then fixed number of axis decimal places
+    let ydecimals = 2; //if not zero, ....
   box1 = new BoxGraph(
         scale,
         xmin,
