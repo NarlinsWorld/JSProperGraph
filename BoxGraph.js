@@ -1,7 +1,7 @@
 /*
 let tahoma;
 function preload() {
-    tahoma = loadFont('Fonts/tahoma.ttf'); //has to be present relative to the index.html
+    tahoma = loadFont('../Fonts/tahoma.ttf'); //has to be present relative to the index.html
 }
 */
 
